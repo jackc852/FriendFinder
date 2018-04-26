@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BeerBuds</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <!--ionicons-->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.jquery.min.js"></script>
+    
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="text">
+                    <i class="ionicons ion-ios-pint"></i>
+                    Beer Buddy Finder
+                </h1>
+            </div>
+            <h2>Survey Questions</h2>
+            <br>
+            
+            <h3><strong>About You</strong></h3>
+            <h3>Name (Required)</h3>
+            <input type="text" id="name" class="form-control" required>
+            
+            <h3>Link to Photo Image (Required)</h3>
+            <input type="text" id="name" class="form-control" required>
+            
+            <br>
+            
+            <h3><strong>Question 1</strong></h3>
+            <h4>You love beer.</h4>
+            <select data-placeholder="" class="chosen-select" id="q1">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 2</strong></h3>
+            <h4>Your favorite beer style is IPA.</h4>
+            <select data-placeholder="" class="chosen-select" id="q2">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 3</strong></h3>
+            <h4>Your favorite beer style is stout.</h4>
+            <select data-placeholder="" class="chosen-select" id="q3">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 4</strong></h3>
+            <h4>Your favorite beer style is Belgian.</h4>
+            <select data-placeholder="" class="chosen-select" id="q4">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 5</strong></h3>
+            <h4>Your favorite beer style is sour.</h4>
+            <select data-placeholder="" class="chosen-select" id="q5">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 6</strong></h3>
+            <h4>Your favorite beer style is lager.</h4>
+            <select data-placeholder="" class="chosen-select" id="q6">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 7</strong></h3>
+            <h4>Your favorite beer style is hefeweizen.</h4>
+            <select data-placeholder="" class="chosen-select" id="q7">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 8</strong></h3>
+            <h4>Your favorite beer style is barleywine.</h4>
+            <select data-placeholder="" class="chosen-select" id="q8">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 9</strong></h3>
+            <h4>Your don't like beer at all.</h4>
+            <select data-placeholder="" class="chosen-select" id="q9">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <h3><strong>Question 10</strong></h3>
+            <h4>You do not drink.</h4>
+            <select data-placeholder="" class="chosen-select" id="q10">
+                <option value""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            
+            <br>
+            <br>
+            
+            <button type="submit" class="btn btn-primary btn-lg" id="submit"><i class="ionicons ion-android-share" aria-hidden="true"></i> Submit </button>
+            
+            <br>
+            <br>
+                
+                <footer class="footer">
+                    <div class="container">
+                        <p><a href="/api/friends">API Friends List</a></p>
+                    </div>
+                </footer>
+            </div>
+
+        <!-- Modal -->
+        <div id="resultsModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal contents -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type = "text/JavaScript">
+                
+            // capture form inputs
+            $("#submit").on("click", function() {
+                
+                // form validation
+                function validateForm() {
+                    var isValid = true;
+                    $(".form-control").each(function() {
+                        if ($(this).val() === "") {
+                            isValid = false;
+                        }
+                    });
+
+                $(".chosen-select").each(function() {
+                    if($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                    return isValid;
+                }
+
+                // validate all required fields filled
+                if (validateForm()) {
+                    //create object for user data
+                    var userData = {
+                        name: $("#name").val(),
+                        photo: $("#photo").val(),
+                        scores: [
+                            $("#q1").val(),
+                            $("#q2").val(),
+                            $("#q3").val(),
+                            $("#q4").val(),
+                            $("#q5").val(),
+                            $("#q6").val(),
+                            $("#q7").val(),
+                            $("#q8").val(),
+                            $("#q9").val(),
+                            $("#q10").val()
+                        ]
+                    };
+
+                    // grab website URL
+                    var currentURL = window.location.origin;
+
+                    $.post(currentURL + "/api/friends", userData, function(data) {
+
+                        // pull result from AJAX post to display best match name and photo
+                        $("#matchName").text(data.name);
+                        $("#matchImg").attr("src", data.photo);
+
+                        // display result in modal
+                        $("#resultsModal").modal("toggle");
+                    });
+                }
+                else {
+                    alert("Please complete all fields prior to clicking submit!");
+                }
+                return false;
+            });
+
+            </script>
+            
+        </body>
+        </html>
